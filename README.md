@@ -1,5 +1,10 @@
 # _printf - Recréation de la fonction printf en C
 
+## Table des matière
+**[Description](https://github.com/loicleguen/holbertonschool-printf/blob/main/README.md#-description)**
+
+---
+
 ## 📚 Description
 
 Ce projet a pour but de **reproduire la fonction `printf`** de la bibliothèque standard du langage C. Il s'agit d'un exercice permettant de comprendre en profondeur :
