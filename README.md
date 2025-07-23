@@ -48,3 +48,5 @@ int main(void)
     _printf("Nombre de caractères affichés : %d\n", count);
     return (0);
 }
+
+<img src= "https://github.com/loicleguen/holbertonschool-printf/blob/main/Flowchartprintf.drawio.png">
