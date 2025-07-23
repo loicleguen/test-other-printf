@@ -2,6 +2,10 @@
 
 ## Table des matière
 **[Description](https://github.com/loicleguen/holbertonschool-printf/blob/main/README.md#-description)**
+**[Auteurs](https://github.com/loicleguen/holbertonschool-printf/blob/main/README.md#-auteurs)**
+**[Fonctionnalités supportées](https://github.com/loicleguen/holbertonschool-printf/blob/main/README.md#%EF%B8%8F-fonctionnalit%C3%A9s-support%C3%A9es)**
+**[Exemple d'utilisation](https://github.com/loicleguen/holbertonschool-printf/blob/main/README.md#-exemple-dutilisation)**
+
 
 ---
 
@@ -54,5 +58,10 @@ int main(void)
     return (0);
 }
 ```
+---
+
+## Flowchart
 
 <img src= "https://github.com/loicleguen/holbertonschool-printf/blob/main/Flowchartprintf.drawio.png">
+
+---
