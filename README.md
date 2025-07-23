@@ -16,7 +16,7 @@ Projet réalisé en binôme dans le cadre du cursus Holberton.
 ## 👥 Auteurs
 
 - **Yanis Leroy**  
-- **Loic Le Guen**
+- **[Loic Le Guen]**(https://github.com/loicleguen)
 
 ---
 
