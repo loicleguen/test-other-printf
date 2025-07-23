@@ -3,48 +3,48 @@
 ## Table des matière
 **[Description](https://github.com/loicleguen/holbertonschool-printf/blob/main/README.md#-description)**
 **[Auteurs](https://github.com/loicleguen/holbertonschool-printf/blob/main/README.md#-auteurs)**
-**[Fonctionnalités supportées](https://github.com/loicleguen/holbertonschool-printf/blob/main/README.md#%EF%B8%8F-fonctionnalit%C3%A9s-support%C3%A9es)**
+**[Functions supported](https://github.com/loicleguen/holbertonschool-printf/blob/main/README.md#%EF%B8%8F-fonctionnalit%C3%A9s-support%C3%A9es)**
 **[Exemple d'utilisation](https://github.com/loicleguen/holbertonschool-printf/blob/main/README.md#-exemple-dutilisation)**
-
+**[Flowchart](https://github.com/loicleguen/holbertonschool-printf/blob/main/README.md#flowchart)**
 
 ---
 
 ## 📚 Description
 
-Ce projet a pour but de **reproduire la fonction `printf`** de la bibliothèque standard du langage C. Il s'agit d'un exercice permettant de comprendre en profondeur :
+This project aims to **recreate the `printf` function** from the standard C language library. It is an exercise designed to provide in-depth understanding of:
 
-- Les fonctions variadiques (`stdarg.h`)
-- La gestion de formatage d'une chaîne
-- L'écriture sur la sortie standard (`write`)
-- Le travail en binôme et l'organisation modulaire d'un projet
+- Variadic functions (`stdarg.h`)
+- Formatting management of a string
+- Writing to the standard output (`write`)
+- Working as a pair and the modular organization of a project
 
-Projet réalisé en binôme dans le cadre du cursus Holberton.
+Project carried out in pairs as part of the Holberton curriculum.
 
 ---
 
-## 👥 Auteurs
+## 👥 Authors
 
 - **[Yanis Leroy](https://github.com/LEROY-Yanis)**  
 - **[Loic Le Guen](https://github.com/loicleguen)**
 
 ---
 
-## 🛠️ Fonctionnalités supportées
+## 🛠️ Functions supported
 
-La fonction `_printf` prend en charge les spécificateurs suivants :
+The `_printf` function supports the following format specifiers:
 
-| Spécificateur | Description                         |
+|**Specifier**  | **Description**                     |
 |---------------|-------------------------------------|
-| `%c`          | Affiche un **caractère**            |
-| `%s`          | Affiche une **chaîne de caractères**|
-| `%%`          | Affiche le caractère `%`            |
-| `%d`, `%i`    | Affiche un **entier signé**         |
+| `%c`          | Prints a **character**              |
+| `%s`          | Prints a **string**                 |
+| `%%`          | Prints the `%` character            |
+| `%d`, `%i`    | Prints a **signed integer**         |
 
-Les comportements non spécifiés (comme `%r`) sont imprimés tels quels, comme le fait `printf`.
+Undefined behaviors (such as %r) are printed as-is, just like `printf` does.
 
 ---
 
-## 🧪 Exemple d'utilisation
+## 🧪 Example of use
 
 ```c
 #include "main.h"
@@ -53,7 +53,7 @@ int main(void)
 {
     int count;
 
-    count = _printf("Bonjour %s ! Le chiffre est %d\n", "le monde", 42);
+    count = _printf("%cello, our names are %s and %s, we have respectively %d and %i years.\n", 'H', "Le Guen", "Leroy", 37, 17);
     _printf("Nombre de caractères affichés : %d\n", count);
     return (0);
 }
